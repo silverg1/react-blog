@@ -1,0 +1,76 @@
+.nav {
+  background: #000000;
+  color: #ffffff;
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  .item {
+    padding: 0 20px;
+    cursor: pointer;
+    height: 120px;
+    border-bottom: 1px solid #888;
+    position: relative;
+    h5 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    &:hover {
+      background: #dde;
+    }
+    .delete {
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+  hr {
+    margin: 0;
+  }
+}
+.btm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  input {
+    margin-right: 10px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+    text-align: center;
+  }
+  button {
+    height: 35px;
+    background: transparent;
+    border: 1px solid #777;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background: #dde;
+    }
+  }
+}
+.modal {
+  margin: 20px;
+  background: #dde;
+  min-height: 200px;
+  padding: 30px;
+  h5 {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: #222;
+  }
+  p {
+    font-size: 16px;
+  }
+}
